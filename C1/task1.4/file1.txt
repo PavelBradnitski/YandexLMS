@@ -1,0 +1,12 @@
+1Golang 
+2outperforms 
+3Python 
+4in 
+5terms 
+6of 
+7microservices,
+8APIs,
+9and 
+10other
+11fast-loading 
+12feature
