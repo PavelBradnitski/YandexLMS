@@ -46,5 +46,5 @@ func HelloHandler(w http.ResponseWriter, r *http.Request) {
 	name := r.URL.Query().Get("name")
 	out := fmt.Sprintf("{\"name\":\"%s\"}", name)
 	log.Print(out)
-	fmt.Fprintf(w, out)
+	fmt.Fprint(w, out)
 }
