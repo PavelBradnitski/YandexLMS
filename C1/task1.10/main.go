@@ -7,13 +7,13 @@ import (
 	"os"
 )
 
-func main() {
-	// logger := NewOrderLogger()
-	// order := Order{1, "Иванов", 100.50}
-	// logger.AddOrder(order)
-	http.HandleFunc("/", HelloHandler)
-	http.ListenAndServe(":8080", nil)
-}
+// func main() {
+// 	// logger := NewOrderLogger()
+// 	// order := Order{1, "Иванов", 100.50}
+// 	// logger.AddOrder(order)
+// 	http.HandleFunc("/", HelloHandler)
+// 	http.ListenAndServe(":8080", nil)
+// }
 
 func WriteToLogFile(message string, fileName string) error {
 	file, err := os.OpenFile(fileName, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
